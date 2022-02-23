@@ -36,6 +36,7 @@ body{
   background-color:dodgerblue ;
   color: white;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 #display-result{
@@ -55,7 +56,13 @@ body{
 
 #display-result-capital{
   font-size: 1.5rem;
-  color:dimgrey;
+  color: rgba(0, 0, 0, .9);
+}
+
+#display-result-population{
+  font-size: 1.3rem;
+  color: green;
+  margin-bottom: 1rem;
 }
 
 #display-result-title{
@@ -87,5 +94,10 @@ body{
 
 .each-country-capital{
   font-size: 1.5rem;
-  color:dimgrey;
+  color: rgba(0, 0, 0, .9);
+}
+.each-country-population{
+  font-size: 1.3rem;
+  color: green;
+  margin-bottom: 1rem;
 }

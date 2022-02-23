@@ -14,7 +14,7 @@ const getCountriesFunc = countriesInput => {
     makeCountryArea.innerHTML = `
     <h3 class="each-country-title">${country.name.common}</h3>
     <h4 class="each-country-capital">Capital: ${country.name.official}</h4>
-    <h4>Population: ${country.population}</h4>
+    <h4 class="each-country-population">Population: ${country.population}</h4>
     <img src="${country.flags.png}" width="160px">
     `;
     allCountryName.appendChild(makeCountryArea)
@@ -41,9 +41,6 @@ document.getElementById('search-buttonn').addEventListener('click', function(){
       displayResultImg.src = allCountryMin.parentNode.children[3].src;
       document.getElementById('display-result-div').style.display = 'block'
 
-    }
-    else{
-      
     }
   }
 
